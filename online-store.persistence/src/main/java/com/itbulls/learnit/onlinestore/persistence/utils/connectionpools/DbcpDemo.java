@@ -15,9 +15,9 @@ public class DbcpDemo {
 		} catch (ClassNotFoundException e) {
 			throw new RuntimeException(e);
 		}
-		ds.setUrl("jdbc:mysql://localhost:3306/learn_it_db");
+		ds.setUrl("jdbc:mysql://localhost:3306/ebook-app");
 		ds.setUsername("root");
-		ds.setPassword("root");
+		ds.setPassword("3390Ansif@123");
 		ds.setMinIdle(3);
 		ds.setTimeBetweenEvictionRunsMillis(1000);
 		ds.setMaxIdle(20);
